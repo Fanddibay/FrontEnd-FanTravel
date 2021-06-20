@@ -1,0 +1,514 @@
+body {
+  background-color: #ffff;
+  font-family: 'Assistant', sans-serif;
+  color: #21323D !important;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+  padding-top: 20px;
+}
+
+.btn-login {
+  background-color: #0c2b41;
+  color: #ffff;
+}
+
+.btn-login:hover {
+  background-color: #175785;
+  color: #ffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #21323D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #21323D !important;
+}
+
+header {
+  padding: 180px 0px 165px;
+  background-image: url("../img/Group 22.png");
+  background-size: cover;
+  margin-top: -70px;
+}
+
+header h1,
+header p {
+  color: white;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-getstarted {
+  background-color: #DB7938;
+  color: #ffff;
+}
+
+header .btn-getstarted:hover {
+  background-color: #f58d48;
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #ffff;
+  padding-left: 40px;
+}
+
+.section-stats h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  margin-top: -50px;
+  margin-bottom: -250px;
+  background-color: #093350;
+}
+
+.section-popular .section-heading {
+  margin-top: 150px;
+}
+
+.section-popular h2,
+.section-popular p {
+  color: #ffff;
+}
+
+.section-popular h2 {
+  font-family: 'Playfair Display'serif;
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 150px;
+}
+
+.section-popular h2 p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #eaeaea;
+  color: #eaeaea;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #DB7938;
+  color: #ffff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #f0853d;
+  color: #ffff;
+}
+
+.section-networks {
+  background-color: #fff;
+  padding-top: 240px;
+  margin-top: -170px;
+  padding-bottom: 50px;
+}
+
+.section-networks h2 {
+  font-family: 'Playfair Display'serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-networks p {
+  font-style: 18px;
+}
+
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  padding-top: 50px;
+  min-height: 500px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff));
+  background: linear-gradient(#fff 0% #f7f9ff 100%);
+}
+
+.section-testimonial-heading h2 {
+  font-family: 'Playfair Display'serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-testimonial-heading p {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  min-height: 380px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-weight: 200;
+  font-size: 26px;
+  text-align: center;
+  color: #6e6e6e;
+  min-height: 150px;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: 20px;
+}
+
+.btn-need-help {
+  background-color: #c2bdb9;
+  color: #ffff;
+}
+
+.btn-need-help:hover {
+  background-color: #9c9c9c;
+  color: #fff;
+}
+
+.btn-get-started {
+  background-color: #DB7938;
+  color: #ffff;
+}
+
+.btn-get-started:hover {
+  background-color: #f58d48;
+  color: #fff;
+}
+
+.section-footer a {
+  color: #071c4d;
+}
+
+.section-details-header {
+  min-height: 310px;
+  margin-top: -70px;
+  background: #E4E6EB;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c4d;
+}
+
+.section-details-content .card-details {
+  border-radius: 11px;
+  padding: 30px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-size: 20px;
+  color: #b1b1b1;
+  margin-bottom: 10px;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content .features h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.section-details-content .features p {
+  margin-bottom: 0;
+}
+
+.section-details-content .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .features .feature-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.section-details-content h1 {
+  font-size: 26px;
+}
+
+.section-details-content h2 {
+  font-size: 20px;
+}
+
+.section-details-content p {
+  font-size: 18px;
+  color: #707070;
+}
+
+.section-details-content .features {
+  margin-top: 20px;
+}
+
+.section-details-content h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.section-details-content p {
+  margin-bottom: 0;
+}
+
+.section-details-content .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.section-details-content .feature-image {
+  width: 45px;
+  float: left;
+  height: 45px;
+}
+
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+
+.section-details-content .gallery .xzoom-container .xzoom {
+  width: 96%;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #1abc9c;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.section-details-content .gallery .xzoom-thumbs {
+  margin-left: -31px;
+}
+
+.section-details-content .member .member-image {
+  width: 40px;
+  height: 40px;
+}
+
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+
+.section-details-content .btn-join-now {
+  background-color: #ff9e53;
+  color: #fff;
+  border-radius: 0;
+}
+
+.section-details-content .btn-join-now:hover {
+  background-color: #fab47e;
+  color: #fff;
+}
+
+.trip-information th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071c4d;
+}
+
+.trip-information td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.trip-information .disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.trip-information .text-blue {
+  color: #0e3796;
+  font-weight: bold;
+}
+
+.trip-information .text-orange {
+  color: #cc9d05;
+  font-weight: bold;
+}
+
+.payment-intruction {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+
+.bank .bank-item h3 {
+  font-size: 18px;
+  color: #071c4d;
+  margin-bottom: 0;
+}
+
+.bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.bank .bank-item .description p {
+  font-weight: normal;
+  font-size: 16px;
+  color: #707070;
+}
+
+.bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.note {
+  font-weight: 600;
+  font-size: 14px;
+  color: #093350;
+}
+
+.gj-deataepicker .datepicker {
+  border-right: 0;
+}
+
+.gj-deataepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.btn-add-now {
+  background-color: #071c4d;
+  color: #ffff;
+}
+
+.btn-add-now:hover {
+  background-color: #0f3386;
+  color: #fff;
+}
+
+.success {
+  margin-top: 90px;
+  margin-bottom: 80px;
+}
+
+.success h1 {
+  font-weight: bold;
+}
+
+.success .p-description {
+  color: #b1b1b1;
+}
+
+@media only screen and (max-width: 768px) {
+  .card-travel {
+    height: 100vh;
+  }
+  .section-networks {
+    margin-top: -200px;
+  }
+  .card-details {
+    margin-top: 30px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

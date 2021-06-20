@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details-FanTravel</title>
+</head>
+<!-- styles css -->
+<link rel="stylesheet" href="/FrontEnd/libraries/bootstrap/bootstrap-4.5.1-dist/css/bootstrap.css">
+<link rel="stylesheet" href="/FrontEnd/libraries/xzoom/xzoom.css">
+<link rel="stylesheet" href="/FrontEnd/libraries/combined/css/gijgo.min.css">
+<link rel="stylesheet" href="/FrontEnd/styles/main.css">
+<link href="https://fonts.googleapis.com/css2?family=Assistant&family=Playfair+Display&display=swap" rel="stylesheet">
+
+<body>
+
+    <!-- Navbar -->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+            <div class="navbar-nav ml-auto mr-auto mr-sm-auto mr-lg-0 mr-md-auto">
+                <a href="index.html" class="navbar-brand">
+                    <img src="/FrontEnd/img/logo.png" alt="">
+                </a>
+            </div>
+            <ul class="navbar-nav mr-auto d-none d-lg-block">
+                <li>
+                    <span class="text-muted">
+                        | &nbsp; Beyond The Expoler of The World
+                    </span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- main -->
+
+    <!-- content header -->
+    <main>
+        
+<div class="success align-center text-center">
+    <img src="/FrontEnd/img/ic_success.png" class="success-icon" alt="">
+    <div class="tittle mt-auto mb-2 mt-sm-2">
+        <h1 class="title-description text-blue">
+            Yeay Success
+        </h1>
+        <p class="p-description ">
+            We've sent you email for trip instruction
+            please read it as well
+        </p>
+    </div>
+    <a href="index.html">
+        <button type="submit" 
+        class="btn btn-add-now mb-2 px-5">
+            Home Page
+        </button>
+    </a>
+</div>
+    </main>
+
+    <!-- footer -->
+    
+    <!-- script -->
+    <script src="FrontEnd/libraries/jquery/jquery-3.5.1.min.js"></script>
+    <script src="FrontEnd/libraries/bootstrap/bootstrap-4.5.1-dist/js/bootstrap.js"></script>
+    <script src="FrontEnd/libraries/retina.min.js"></script>
+    <script src="/FrontEnd/libraries/xzoom/xzoom.min.js"></script>
+    <script src="FrontEnd/libraries/combined/js/gijgo.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidht: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+
+            $('.datepicker').datepicker({
+                uiLibrary: 'bootstrap4',
+                icons: {
+                    rightIcon: '<img src="Frontend/img/icon_doe.png"/>'
+                }
+            })
+        });
+    </script>
+</body>
+
+</html>
